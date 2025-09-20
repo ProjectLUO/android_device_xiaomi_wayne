@@ -170,6 +170,9 @@ PRODUCT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 # Treble
 BOARD_VNDK_VERSION := current
 
+# UFFDGC
+PRODUCT_ENABLE_UFFD_GC := false
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
