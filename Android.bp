@@ -9,5 +9,6 @@ soong_namespace {
         "vendor/qcom/opensource/usb/etc",
         "hardware/google/interfaces",
         "hardware/google/pixel",
+        "hardware/lineage/compat",
     ],
 }
